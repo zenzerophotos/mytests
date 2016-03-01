@@ -22,7 +22,7 @@ function gallery(req, res){
   res.sendFile('public/html/gallery.html', {root: __dirname});
 }
 
-function gallery(req, res){
+function about(req, res){
   res.sendFile('public/html/about.html', {root: __dirname});
 }
 
