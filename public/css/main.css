@@ -1,6 +1,7 @@
-
-.navbar-nav{
-  pull: right;
+.csstest{
+  height: 222px;
+  width:222px;
+  background-color: red;
 }
 
 #box{
@@ -56,5 +57,18 @@
   margin-top: -30px;
   overflow: hidden;
 
+}
 
+
+
+#navbar{
+  background-color: blue;
+  opacity: 0.5;
+  background: -webkit-linear-gradient(black, transparent);
+  border-radius: 0px;
+  border-bottom:2px solid red;
+  color:red;
+}
+.li{
+  color:red;
 }
