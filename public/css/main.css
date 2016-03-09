@@ -14,7 +14,7 @@
 }
 
 .footer{
-margin: 0px;
+margin-left: 6.5%;
 padding:0px;
 position: relative;
 }
@@ -32,7 +32,7 @@ position: relative;
 
 .footer img{
   /*overflow: hidden;*/
- width:100%;
+ width:93%;
 
 }
 

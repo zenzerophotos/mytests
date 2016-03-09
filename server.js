@@ -9,7 +9,7 @@ server.set('port',(process.env.PORT || 8080));
 
 server.get('/', home);
 server.get('/gallery.html',gallery);
-server.get('/about.html',about);
+server.get('/game.html',game);
 
 server.listen(server.get('port'), listenCallback);
 
