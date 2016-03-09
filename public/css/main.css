@@ -4,12 +4,43 @@
   background-color: red;
 }
 
+
+#body{
+  background-color: blue;
+}
+
+.container{
+
+}
+
+.footer{
+margin: 0px;
+padding:0px;
+position: relative;
+}
+
+.header{
+
+  margin-left: 6.5%;
+  padding: 0px;
+  position: relative;
+}
+
+.header img{
+  width:93%
+}
+
+.footer img{
+  /*overflow: hidden;*/
+ width:100%;
+
+}
+
 #box{
   position: absolute;
   align-content: center;
 
 }
-
 #red-outer{
   height:300px;
   background-color: red;
@@ -24,8 +55,6 @@
   border-radius: 140px;
   margin-left: 15px;
   margin-bottom: 20px;
-
-
 }
 
 #redline{
@@ -34,6 +63,14 @@
   background-color: red;
   margin-left: 138px;
   margin-top: -300px;
+}
+#bckclr{
+  background-color: #c1c1c1;
+  /*border: solid 1px red;
+  box-shadow: 5px 5px 5px 0px grey;*/
+  border-top: solid 0px ;
+  border-bottom: solid 0px;
+  width: 87%;
 }
 
 #lefteye{
@@ -60,14 +97,14 @@
 }
 
 
-
 #navbar{
   background-color: blue;
-  opacity: 0.5;
+  /*opacity: 0.5;*/
   background: -webkit-linear-gradient(black, transparent);
   border-radius: 0px;
   border-bottom:2px solid red;
   color:red;
+  margin-bottom: 50px;
 }
 .li{
   color:red;

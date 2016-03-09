@@ -22,8 +22,8 @@ function gallery(req, res){
   res.sendFile('public/html/gallery.html', {root: __dirname});
 }
 
-function about(req, res){
-  res.sendFile('public/html/about.html', {root: __dirname});
+function game(req, res){
+  res.sendFile('public/html/game.html', {root: __dirname});
 }
 
 function listenCallback(){
